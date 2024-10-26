@@ -1,0 +1,48 @@
+/* File: custom_overrides.css */
+
+.stSidebar * {
+    font-size: 14px;
+    font-weight: 500;
+    color: #888;
+}
+
+.stAppViewBlockContainer * {
+    font-size: 16px;
+    color: #333;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Noto Serif', serif;
+    color:  #212529;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+input, textarea, select {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
